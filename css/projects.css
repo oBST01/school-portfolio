@@ -1,0 +1,77 @@
+#projects{
+    background-color: #1D1438;
+    padding: 7vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.project1{
+    border: 0.5vh solid #FFFF;
+    box-shadow: 0px 0px 2vh 1.5vh #ffffff;
+    display: flex;
+    width: 180vh;
+    height: 60vh;
+    justify-content: space-between;
+    margin-bottom: 15vh;
+}
+.imgP{
+   object-fit: contain;
+    width: 80vh;
+    height: 80vh;
+    margin-left: 2vh;
+}
+.titleProjects{
+    color:#cc84ff;
+    text-shadow: 0 0 4vw #cc84ff;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 8vh;
+    margin-bottom: 6vh;
+}
+.titleP1{
+    color:#d1acec;
+    text-shadow: 0 0 3vh #cc84ff;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 5vh;
+    margin: 4vh;
+}
+#divImage{
+   display: flex;
+   align-items: center;
+}
+.contentP1{
+    color:#FFFF;
+    font-family: Josefin Sans;
+    font-size: 3.5vh;
+    letter-spacing: 0vh;
+    margin: 0vh 3vh 0vh 4vh;
+    text-align: justify;
+    text-indent: 2vh;
+    margin-bottom: 10vh;
+}
+.descriptionP1{
+    text-align: center;
+}
+.repoIcon{
+    border: 0.2vh solid #FFFF;
+    background-color: #ffffff;
+    border-radius: 3vh;
+    box-sizing: border-box;
+    margin: 0 38vh 0 38vh;
+    color: #cc84ff;
+    font-family: Josefin Sans;
+    padding: 0.5vh;
+    font-size: 2.5vh;
+    font-weight: bolder;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.repoIcon:hover{
+    transform: scale(1.1);
+}
+.descriptionP2{
+    margin-left: 0;
+}
